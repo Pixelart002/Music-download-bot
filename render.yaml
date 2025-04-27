@@ -1,6 +1,11 @@
+# Exported from Render on 2025-04-27T17:50:21Z
 services:
-  - type: web
-    name: telegram-spotify-bot
-    env: docker
-    plan: free
-    dockerfilePath: ./Dockerfile
+- type: web
+  name: telegram-spotify-bot
+  runtime: docker
+  repo: https://github.com/Pixelart002/Music-download-bot
+  plan: free
+  region: oregon
+  dockerContext: .
+  dockerfilePath: ./Dockerfile
+version: "1"

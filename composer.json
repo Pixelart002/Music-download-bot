@@ -1,0 +1,6 @@
+{
+  "name": "pulseprofit/telegram-bot",
+  "description": "Simple PHP Telegram bot",
+  "type": "project",
+  "require": {}
+}

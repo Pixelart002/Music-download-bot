@@ -1,9 +1,0 @@
-{}{
-  "name": "telegram-bot",
-  "description": "A Telegram bot written in PHP",
-  "type": "project",
-  "require": {
-    "php": "^7.4",
-    "guzzlehttp/guzzle": "^7.0"
-  }
-}

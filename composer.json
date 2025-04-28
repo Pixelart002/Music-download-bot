@@ -1,12 +1,13 @@
 {
-  "name": "your-app-name",
+  "name": "music-download-bot",
   "require": {
-    "php": "^8.1", 
-    "some/package": "^1.0"
+    "php": "^8.3",
+    "ext-curl": "*",
+    "ext-json": "*"
   },
   "config": {
     "platform": {
-      "php": "8.1.0"
+      "php": "8.3.0"
     }
   }
 }

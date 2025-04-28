@@ -1,7 +1,7 @@
 <?php
 // Define the bot token
 $bot_token = '7703564777';
-$api_url = "https://api.telegram.org/bot<7703564777:AAFL8tUd5L263plTrzUKKdPee502JX1JSwY>/setWebhook?url=https://music-download-bot-production.up.railway.app/";
+$api_url = "https://api.telegram.org/bot7703564777:AAFL8tUd5L263plTrzUKKdPee502JX1JSwY/setWebhook?url=https://music-download-bot-production.up.railway.app/";
 
 // Get the update from Telegram
 $update = file_get_contents("php://input");

@@ -1,6 +1,12 @@
 {
-  "name": "pulseprofit/telegram-bot",
-  "description": "Simple PHP Telegram bot",
-  "type": "project",
-  "require": {}
+  "name": "your-app-name",
+  "require": {
+    "php": "^8.1", 
+    "some/package": "^1.0"
+  },
+  "config": {
+    "platform": {
+      "php": "8.1.0"
+    }
+  }
 }
